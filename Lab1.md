@@ -11,6 +11,7 @@
 ##### + Client Layer: Giao diện người dùng để tương tác (Desktop UI dựa trên Windows).
 ##### + Application Server: Chứa logic nghiệp vụ xử lý yêu cầu từ Client.
 ##### + Database Server: Lưu trữ thông tin nhân viên, dự án và các nghiệp vụ liên quan.
+hưng ngu
 
 ## * Giải thích thành phần
 ### Client Layer: Giao diện Windows giúp nhân viên và quản trị viên dễ sử dụng để đăng nhập, cập nhật timecard, chọn phương thức thanh toán, v.v.
