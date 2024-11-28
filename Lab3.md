@@ -65,5 +65,50 @@ Hệ thống con **ProjectManagementDatabase** chịu trách nhiệm quản lý 
   - Thực thể đại diện cho các bản ghi dữ liệu phụ trợ trong cơ sở dữ liệu của dự án.
 
 ---
+# 2. Analysis Class to Design Element Map
 
+## Ánh xạ các lớp phân tích đến các phần tử thiết kế
 
+### 2.1. **PrintService**
+
+| **Analysis Class**     | **Design Element**     |
+|------------------------|------------------------|
+| PrintServiceController | PrintServiceController |
+| PrintJob               | PrintJob               |
+| Payslip                | Payslip                |
+| PrinterInterface       | PrinterInterface       |
+
+### 2.2. **ProjectManagementDatabase**
+
+| **Analysis Class**     | **Design Element**     |
+|------------------------|------------------------|
+| ProjectManager         | ProjectManager         |
+| ProjectData            | ProjectData            |
+| DataService            | DataService            |
+| DatabaseConnection     | DatabaseConnection     |
+| ProjectRecord          | ProjectRecord          |
+
+---
+# 3. Design Element to Owning Package Map
+
+## Ánh xạ các phần tử thiết kế vào các gói
+
+### PrintService
+
+| **Design Element**       | **Owning Package**       |
+|---------------------------|--------------------------|
+| PrintServiceController    | print.controller         |
+| PrintJob                  | print.entity             |
+| Payslip                   | print.entity             |
+| PrinterInterface          | print.interfaces         |
+| PrintService              | print.subsystem          |
+
+### ProjectManagementDatabase
+
+| **Design Element**       | **Owning Package**           |
+|---------------------------|------------------------------|
+| ProjectManager            | project.controller           |
+| ProjectData               | project.entity               |
+| ProjectRecord             | project.entity               |
+| DataService               | project.interfaces           |
+| DatabaseConnection        | project.subsystem.database   |
