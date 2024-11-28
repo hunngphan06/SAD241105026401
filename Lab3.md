@@ -112,3 +112,10 @@ Hệ thống con **ProjectManagementDatabase** chịu trách nhiệm quản lý 
 | ProjectRecord             | project.entity               |
 | DataService               | project.interfaces           |
 | DatabaseConnection        | project.subsystem.database   |
+
+---
+# 4. Architectural layers and their dependencies
+
+## Biểu đồ mô tả các layers trong hệ thống và quan hệ giữa chúng 
+
+![Diagram](https://www.planttext.com/api/plantuml/png/X99DJiCm48NtFiMecwvw0HQebB8e0WcH4qoSAJLrxCWpeOeG9sF1aRW2JbJdfmInikBt_7dyNhu_lzOi6AGkhLh2blR64LXiAB2gK1_nXM1nKrNMQ1JZ7JoqsWBU5O2so0nFs0HlxQrtqguK1YNuLzBoY2vImiZmeGRsfkPuPNHd5DwC9fwmWt5o5kQn9JdPec2EJ1FkdHCZvWA73LjJJV7tFhz4zz_Ff7qe9joT4mfxd1kKGY_smcw3xfWrB5GEU-t0wLLZTbRdt5d7w1d0E9P_SszlMCQNsAu_FfYA8ISv4RbKzAZVhbvO5VxaLjUGoadTm1KKL94h6BnJlzHqB6KVxJKJ_sqSmepMBa7Kmd0oSb0z99dxTA9N-xAiNJipdUqZrEm1j9RLEexU_ka_0000__y30000)
